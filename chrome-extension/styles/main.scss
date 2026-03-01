@@ -1,0 +1,84 @@
+$font-family: Roboto, sans-serif;
+$bg-gray: rgb(245, 245, 245);
+
+.manali-panel {
+  font-family: $font-family;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+  background-color: white;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+    border-bottom: 1px solid $bg-gray;
+    text-align: center;
+  }
+
+  .content {
+    padding: 20px;
+    flex: 1;
+  }
+
+  .section-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .mana-main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    .transcript-container {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin-bottom: 16px;
+      textarea {
+        height: 100%;
+        outline: none;
+        border: none;
+        background-color: $bg-gray;
+        border-radius: 12px;
+        padding: 12px;
+        resize: none;
+      }
+    }
+    .agent-container {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+
+      .agent-conversation {
+        display: flex;
+        flex-direction: column;
+        outline: none;
+        border: none;
+        background-color: $bg-gray;
+        border-radius: 12px;
+        padding: 12px;
+        flex: 1;
+        margin-bottom: 12px;
+      }
+      .agent-input-container {
+        display: flex;
+        input[type='text'] {
+          outline: none;
+          border: none;
+          background-color: $bg-gray;
+          border-radius: 12px;
+          padding: 12px;
+          flex: 1;
+        }
+      }
+    }
+  }
+}

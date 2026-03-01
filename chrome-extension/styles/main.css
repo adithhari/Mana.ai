@@ -1,0 +1,77 @@
+.manali-panel {
+  font-family: Roboto, sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+  background-color: white;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+}
+.manali-panel .title {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px;
+  border-bottom: 1px solid rgb(245, 245, 245);
+  text-align: center;
+}
+.manali-panel .content {
+  padding: 20px;
+  flex: 1;
+}
+.manali-panel .section-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.manali-panel .mana-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.manali-panel .mana-main .transcript-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 16px;
+}
+.manali-panel .mana-main .transcript-container textarea {
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: rgb(245, 245, 245);
+  border-radius: 12px;
+  padding: 12px;
+  resize: none;
+}
+.manali-panel .mana-main .agent-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.manali-panel .mana-main .agent-container .agent-conversation {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  border: none;
+  background-color: rgb(245, 245, 245);
+  border-radius: 12px;
+  padding: 12px;
+  flex: 1;
+  margin-bottom: 12px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.manali-panel .mana-main .agent-container .agent-input-container {
+  display: flex;
+}
+.manali-panel .mana-main .agent-container .agent-input-container input[type='text'] {
+  outline: none;
+  border: none;
+  background-color: rgb(245, 245, 245);
+  border-radius: 12px;
+  padding: 12px;
+  flex: 1;
+}

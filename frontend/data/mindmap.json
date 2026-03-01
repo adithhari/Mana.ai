@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    { "id": 1, "label": "Hackathon" },
+    { "id": 2, "label": "Winning Hackathon" },
+    { "id": 3, "label": "Project Completion" },
+    { "id": 4, "label": "Polishing Project" },
+    { "id": 5, "label": "MVP Completion" },
+    { "id": 6, "label": "IU Classifieds" },
+    { "id": 7, "label": "MRI Scanning" },
+    { "id": 8, "label": "Radiation Risk" },
+    { "id": 9, "label": "Free Money" },
+    { "id": 10, "label": "Donation" },
+    { "id": 11, "label": "Sperm Donation" },
+    { "id": 12, "label": "Blood Donation" }
+  ],
+  "edges": [
+    { "from": 1, "to": 2 },
+    { "from": 1, "to": 3 },
+    { "from": 1, "to": 4 },
+    { "from": 2, "to": 5 },
+    { "from": 2, "to": 6 },
+    { "from": 5, "to": 7 },
+    { "from": 7, "to": 8 },
+    { "from": 9, "to": 10 },
+    { "from": 10, "to": 11 },
+    { "from": 7, "to": 12 }
+  ]
+}

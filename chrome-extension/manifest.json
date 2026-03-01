@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Mana AI Meeting Assistant",
+  "version": "1.0",
+  "description": "Mana AI Meetings is the next-gen AI assistant for meetings.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["scripts/content.js"],
+      "css": ["styles/main.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["panel.html"],
+      "matches": ["https://meet.google.com/*"]
+    }
+  ]
+}

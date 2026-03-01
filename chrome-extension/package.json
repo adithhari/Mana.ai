@@ -1,0 +1,20 @@
+{
+  "name": "mana-gmeet-chrome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-dev": "sass --watch --no-source-map --update --style=expanded styles:styles",
+    "sass-prod": "sass --no-source-map --style=compressed styles:styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.iu.edu:Luddy-Hackathon/mana-gmeet-chrome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.86.3"
+  }
+}
